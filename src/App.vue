@@ -42,4 +42,26 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff; /* Text color */
+  background-color: #008080; /* Teal color */
+  border: 2px solid #008080; /* Border color */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #006666; /* Darker teal color on hover */
+  border-color: #006666; /* Darker border color on hover */
+  color: #ffffff; /* Text color on hover */
+}
 </style>

@@ -26,10 +26,13 @@ export default {
 </script>
 
 <style>
-    .rank  {
-        font-size: 1.4em;
-        color: teal;
-        font-weight: bold;
-    }
+ .rank  {
+    font-size: 1.4em;
+    color: teal;
+    font-weight: bold;
+}
 
+.results {
+    margin: 40px auto;
+}
 </style>
